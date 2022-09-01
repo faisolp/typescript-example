@@ -6,6 +6,8 @@ yarn init
 
 yarn add  -D typescript ts-node 
 
+
+
 npx tsc --init
 
 create file  tsconfig.json
@@ -51,3 +53,9 @@ export function hello(who: string = world): string {
 }
 
 hello()
+
+api 
+
+yarn add -D @types/compression @types/connect-timeout @types/cors  @types/dotenv  @types/express  @types/jsonwebtoken @types/tedious
+
+yarn add compression connect-timeout cors  dotenv express  jsonwebtoken tedious
