@@ -1,6 +1,3 @@
-const world = 'world';
+import app from './src/test01'
 
-export function hello(who: string = world): string {
-  return `Hello ${who}! `;
-}
-hello()
+app()
