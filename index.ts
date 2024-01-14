@@ -1,3 +1,3 @@
-import app from './src/test01'
+import app from "./src/test05GraphQLClient"
 
 app()

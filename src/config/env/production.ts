@@ -27,11 +27,14 @@ export default {
   },
   mongoConfig:{
 	        
-		Uri:"mongodb://admin_invtdb:EPP%40iot480%28%29%25@172.18.0.103/invtdb",
-		options : {
-			user: 'admin_invtdb',
-			pass: 'EPP@iot480()%'
-		  }
+	database: "jobshr",
+	server: '172.18.0.103',
+	Uri: "",
+	options: {
+		user: '',
+		pass: '',
+		token: 'U2FsdGVkX1+DgNt7MCU7M8mg+Ld01frSS6gklkLccZWz9Dn9AvfwpV0XSYvT95UAgOcL0YcubvMgmrYjQyof9g==',
+	}
   },
   AUTH:true,
   appConfig:{

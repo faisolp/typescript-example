@@ -69,14 +69,14 @@ export default  {
 	},
 
 	mongoConfig:{
-		database:"invtdb",
-		server: '172.18.0.103',
-		Uri:"",
-		options : {
-			user: '',
-			pass: '',
-			token:'U2FsdGVkX1/T3cp3mQ9rZryykDvhm0CXh5SOhmbNWhpI3lW91iytDhdG6yrASOwb2LZhw3MzG9J7VuT4qz3uMw==',
-		  }
+		database: "jobshr",
+        server: '172.18.0.103',
+        Uri: "",
+        options: {
+            user: '',
+            pass: '',
+            token: 'U2FsdGVkX1+DgNt7MCU7M8mg+Ld01frSS6gklkLccZWz9Dn9AvfwpV0XSYvT95UAgOcL0YcubvMgmrYjQyof9g==',
+        }
 
 	},
 	MaxRecord :{
