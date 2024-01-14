@@ -5,8 +5,8 @@ const TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImVwcGFkbWluIi
 
 
 const ProdTablesQueryGraphGL = `
-query GetProdTableById {
-  getProdTableById(prodId: "PF0208732") {
+query GetProdTableById($prodId: String!) {
+  getProdTableById(prodId: $prodId) {
       prodId
       itemId
       name
@@ -81,7 +81,11 @@ const fetchGraphQLData=async(token:string, query: string, variables?: Record<str
 
 async function app() {
     try {
-        const data = await fetchGraphQLData(TOKEN,ProdTablesQueryGraphGL);
+        const data = await fetchGraphQLData(
+          TOKEN,
+          ProdTablesQueryGraphGL,
+          {prodId:"PF0208732"}
+        );
         console.log('Data received from GraphQL:', data);
   
       console.log(data);
